@@ -1,0 +1,27 @@
+.item h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.item p {
+  color: #3a3a3a;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.price {
+  border-radius: 30px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: #006740a7;
+  color: white;
+  font-size: 1.4rem;
+}

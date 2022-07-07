@@ -1,0 +1,26 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sorting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sorting button {
+  font-size: 1.25rem;
+  background-color: #65d1a9;
+  border: 1px solid #65d1a9;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.sorting button:hover {
+  background-color: #89c1ac;
+}

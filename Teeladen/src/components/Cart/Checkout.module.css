@@ -1,0 +1,81 @@
+.auth {
+  margin: 1rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #65d1a932;
+  overflow: scroll;
+  height: 250px;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  font-size: 1.25rem;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: 550;
+}
+
+.control input {
+  display: block;
+  width: 20rem;
+  margin: auto;
+  margin-bottom: 0.75rem;
+  border-radius: 4px;
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+.button {
+  font-size: 1.25rem;
+  background-color: #65d1a9;
+  border: 1px solid #65d1a9;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem
+}
+.button:hover,
+.button:active {
+  background-color: #89c1ac;
+  border-color: #89c1ac;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #65d1a932;
+  color: #ffffff;
+  border: 1px solid #65d1a932;
+  cursor: not-allowed;
+}
+
+.button span {
+  margin: 0 0.5rem;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.errortext {
+  color: #b40e0e;
+}
