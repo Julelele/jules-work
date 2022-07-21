@@ -1,0 +1,19 @@
+.comments {
+  text-align: center;
+}
+.comments h2 {
+  color: #31a67b;
+  margin: 1rem auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.comments > button {
+  font-size: 1.25rem;
+}
+
+.noComments {
+  text-align: left;
+  margin-left: 1.2rem;
+  margin-top: 1.5rem;
+}

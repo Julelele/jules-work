@@ -1,0 +1,107 @@
+.form {
+  position: relative;
+}
+
+.loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control {
+  font-size: 1.1rem;
+  text-align: left;
+  
+}
+
+.control label {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 550;
+  display: block;
+  margin-bottom: 0.3rem;
+  text-align: left;
+}
+
+.control input,
+.control textarea {
+  font: inherit;
+  color: #4a5555;
+  padding: 0.35rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  background-color: #f6f6f6;
+  border: 1px solid #e4e4e4;
+  display: block;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.control input:focus,
+.control textarea:focus {
+  background-color: #79d1b124;
+  outline-color: #65d1a9a3;
+}
+
+.control input::placeholder,
+.control textarea::placeholder  {
+  color: #c0c0c0;
+  font-size: 1.25;
+}
+
+.invalid input,
+.invalid textarea {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+  margin-bottom: 0rem;
+}
+
+.invalid input:focus,
+.invalid textarea:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.errortext {
+  color: #b40e0e;
+  margin-bottom: 1rem;
+
+}
+
+.actions {
+  text-align: right;
+}
+
+button {
+  font-size: 1.25rem;
+  background-color: #65d1a9;
+  border: 1px solid #65d1a9;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  border-radius: 6px;
+  margin-left: 1rem;
+}
+
+button:hover,
+button:active {
+  background-color: #89c1ac;
+  border-color: #89c1ac;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #65d1a932;
+  color: #ffffff;
+  border: 1px solid #65d1a932;
+  cursor: not-allowed;
+}
+
+.btnGroup {
+  text-align: right;
+}

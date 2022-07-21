@@ -1,0 +1,58 @@
+.item {
+  padding-top: 0.1rem;
+}
+
+.item h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.details {
+  align-items: left;
+}
+
+.quantity span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.price {
+  border-radius: 30px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: #006740a7;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.itemprice {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.plusMinusButton {
+	border: 3px solid #31a67b;
+	background-color: white;
+  color: #31a67b;
+	font-size: 30px;
+	height: 1.5em;
+	width: 1.5em;
+	border-radius: 999px;
+  padding: 0rem;
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.plusMinusButton:hover{
+  border-color: #89c1ac;
+  background-color: white;
+  color: #89c1ac;
+}
