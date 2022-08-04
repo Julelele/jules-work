@@ -11,9 +11,15 @@
 }
   
   .logo {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 550;
     color: white;
+  }
+  
+  .logo a:hover,
+  .logo a:active,
+  .logo a.active {
+    color: #65d1a9;
   }
   
   .nav ul {

@@ -8,6 +8,11 @@ body {
   background-color: #ffffff;
 }
 
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
 .centered {
   margin: 3rem auto;
   text-align: center;
